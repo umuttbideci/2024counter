@@ -3,7 +3,7 @@ function calculateRemainingSplitSeconds() {
     var now = new Date();
 
     // Target date for 2023
-    var targetDate = new Date("2024-01-01T00:00:00");
+    var targetDate = new Date("2025-01-01T00:00:00");
 
     // Calculate remaining split seconds (1 split second = 1/60 seconds)
     var remainingMilliseconds =  targetDate.getTime() - now.getTime();
